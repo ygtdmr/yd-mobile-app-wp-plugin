@@ -40,6 +40,15 @@ jobs:
             terser "$file" -c -m -o "$out"
           done
 
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer
+
+      - name: Setup Composer
+        run: composer install --no-dev
+
       - name: Get version
         id: get_version
         run: echo "VERSION=$(cat *.php | grep "Version:" | head -n 1 | cut -d " " -f4 | tr -d '\n')" >> $GITHUB_ENV
@@ -48,7 +57,7 @@ jobs:
         run: |
           repo=$(basename $GITHUB_REPOSITORY | sed "s/-wp-plugin$//")
           zipname="${repo}-${VERSION}.zip"
-          zip -r "$zipname" . -x "*.git*" "readme.md" ".gitignore" ".github/*"
+          zip -r "$zipname" . -x "*.git*" "readme.md" ".gitignore" ".github/*" "composer.json" "composer.lock"
           echo "ZIP_FILE=$zipname" >> $GITHUB_ENV
 
       - name: Upload release zip
