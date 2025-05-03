@@ -1,0 +1,190 @@
+/**
+ * Styling for mobile app language interface, including Google Translate logo,
+ * content list items, edit section layout, language tab status indicators, and responsive behavior.
+ *
+ * Author: Yigit Demir
+ * Version: 1.0.0
+ * Since: 1.0.0
+ */
+
+ .yd-mobile-app.language {
+	.logo-google-translate::before {
+	  // Displays the Google Translate logo before the element
+	  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHZpZXdCb3g9IjAgMCA5OTggOTk4Ij48cGF0aCBmaWxsPSIjREJEQkRCIiBkPSJNOTMyIDk5OGMzNiAwIDY2LTI5IDY2LTY1VjI2NmMwLTM2LTMwLTY2LTY2LTY2SDI4NGwyNjAgNzk4aDM4OHoiLz48cGF0aCBmaWxsPSIjRENEQ0RDIiBkPSJNOTMyIDIzMGM5IDAgMTkgNCAyNiAxMSA2IDcgMTAgMTYgMTAgMjV2NjY3YzAgOS00IDE4LTEwIDI1LTcgNy0xNyAxMC0yNiAxMEg1NjZMMzI1IDIzMGg2MDdtMC0zMEgyODRsMjYwIDc5OGgzODhjMzYgMCA2Ni0yOSA2Ni02NVYyNjZjMC0zNi0zMC02Ni02Ni02NnoiLz48cGF0aCBmaWxsPSIjNDM1MkI4IiBkPSJtNDgyIDgxMCA2MiAxODggMTcwLTE4OHoiLz48cGF0aCBmaWxsPSIjNjA3OTg4IiBkPSJNOTM2IDQ3NnYtMzlINzQ4di02M2gtNjJ2NjNINTY2djM5aDI0MGMtMTMgNDUtNDIgODgtNjkgMTIxLTQ5LTU4LTQ5LTc3LTQ5LTc3aC01MXMyIDI4IDcxIDEwOWMtMjMgMjMtNDAgMzYtNDAgMzZsMTYgNDlzMjQtMjAgNTMtNTJjMzAgMzIgNjggNzEgMTE3IDExN2wzMi0zMmMtNTItNDgtOTEtODYtMTIwLTExNyAzOC00NSA3Ny0xMDIgODUtMTU0aDg1eiIvPjxwYXRoIGZpbGw9IiM0Mjg1RjQiIGQ9Ik02NiAwQzMwIDAgMCAzMCAwIDY3djY3N2MwIDM2IDMwIDY2IDY2IDY2aDY0OUw0NTQgMEg2NnoiLz48bGluZWFyR3JhZGllbnQgaWQ9ImEiIHgxPSI1MzQuMyIgeDI9Ijk5OC4xIiB5MT0iNDMzLjIiIHkyPSI0MzMuMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuMiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9saW5lYXJHcmFkaWVudD48cGF0aCBmaWxsPSJ1cmwoI2EpIiBkPSJNNTM0IDIwMGgzOThjMzYgMCA2NiAzMCA2NiA2NnY0MDBMNTM0IDIwMHoiLz48cGF0aCBmaWxsPSIjRUVFIiBkPSJNMzcxIDQzMWMtMiAzMC0yOCA3NS05MSA3NS01NCAwLTk4LTQ1LTk4LTEwMHM0NC0xMDEgOTgtMTAxYzMxIDAgNTIgMTQgNjQgMjVsNDEtNDBhMTU2IDE1NiAwIDEgMC0xMDQgMjcxYzg5IDEgMTQ5LTYzIDE0OS0xNTIgMC0xMy0yLTIyLTQtMzJIMjgwdjUzbDkxIDF6Ii8+PHJhZGlhbEdyYWRpZW50IGlkPSJiIiBjeD0iNjUuMiIgY3k9IjE5LjQiIHI9IjEzOTguMyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuMSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+PC9yYWRpYWxHcmFkaWVudD48cGF0aCBmaWxsPSJ1cmwoI2IpIiBkPSJNOTMyIDIwMEg1MTlMNDU0IDBINjZDMzAgMCAwIDMwIDAgNjd2Njc3YzAgMzYgMzAgNjYgNjYgNjZoNDE2bDYyIDE4OGgzODhjMzYgMCA2Ni0yOSA2Ni02NVYyNjZjMC0zNi0zMC02Ni02Ni02NnoiLz48L3N2Zz4=");
+	  width: 20px;
+	  height: 18px;
+	  display: inline-block;
+	  vertical-align: text-bottom;
+	  margin-right: 4px;
+	}
+  
+	.actions {
+	  > [data-action="remove-all"] {
+		// Adds spacing to the remove all button
+		margin-right: 8px;
+	  }
+  
+	  > .spinner {
+		// Spinner inside actions should not float
+		float: none;
+	  }
+	}
+  
+	ul.content-list {
+	  // Styling for the content list container
+	  margin: 0;
+	  background: #fff;
+	  border: 1px solid #8c8f94;
+	  height: 360px;
+	  max-height: 360px;
+	  overflow-y: auto;
+	  margin-top: 24px;
+	  text-align: center;
+  
+	  > .spinner {
+		// Spinner at the top of content list
+		margin-bottom: 10px;
+		float: none;
+	  }
+  
+	  > li {
+		// Each list item styling
+		padding: 4px 6px;
+		margin: 0;
+		display: flex;
+		cursor: pointer;
+		user-select: none;
+		-webkit-user-select: none;
+  
+		&:hover {
+		  background-color: #eee;
+		}
+  
+		&.selected {
+		  background-color: #ddd;
+		}
+  
+		&:not(.filled, .half-filled) {
+		  font-weight: bold;
+  
+		  &::before {
+			background-color: #b32d2e;
+		  }
+		}
+  
+		&.filled::before {
+		  background-color: #7ad03a;
+		}
+  
+		&.half-filled::before {
+		  background-color: #e68b3c;
+		}
+  
+		&::before {
+		  // Status indicator dot before list items
+		  content: "";
+		  border-radius: 50%;
+		  width: 12px;
+		  height: 12px;
+		  min-width: 12px;
+		  min-height: 12px;
+		  align-self: center;
+		  margin-right: 8px;
+		}
+	  }
+	}
+  
+	.edit {
+	  // Edit area layout
+	  margin-top: 48px;
+	  display: flex;
+	  gap: 8px;
+  
+	  > span {
+		display: flex;
+		position: relative;
+		width: 100%;
+	  }
+  
+	  > .target {
+		> .language-tabs {
+		  // Tabs for language selection
+		  position: absolute;
+		  bottom: 100%;
+		  display: flex;
+		  overflow-x: auto;
+		  width: 100%;
+  
+		  > .nav-tab {
+			display: flex;
+			cursor: pointer;
+  
+			&:first-of-type {
+			  margin: 0;
+			}
+  
+			&.nav-tab-active {
+			  margin-bottom: 0;
+			  border-bottom: 0;
+			}
+  
+			> .flag {
+			  align-self: center;
+			  margin-right: 6px;
+			  box-shadow: 0 0 2px #808080;
+			}
+  
+			&:not(.filled)::after {
+			  background-color: #b32d2e;
+			}
+  
+			&.filled::after {
+			  background-color: #7ad03a;
+			}
+  
+			&::after {
+			  // Status dot after nav-tab
+			  content: "";
+			  border-radius: 50%;
+			  width: 12px;
+			  height: 12px;
+			  min-width: 12px;
+			  min-height: 12px;
+			  align-self: center;
+			  margin-left: 8px;
+			}
+  
+			> img {
+			  margin-right: 4px;
+			}
+		  }
+		}
+	  }
+  
+	  .spinner {
+		// Positioning the spinner inside edit
+		position: absolute;
+		bottom: 50%;
+		right: 50%;
+		transform: translate(50%, 50%);
+		z-index: 2;
+	  }
+  
+	  textarea {
+		// Textarea inside edit
+		border-radius: 0 !important;
+		margin: 0;
+		z-index: 1;
+		width: 100%;
+	  }
+	}
+  
+	@media screen and (max-width: 782px) {
+	  .edit {
+		// Responsive adjustments for edit section
+		flex-direction: column;
+		gap: 48px;
+	  }
+	}
+  }
+  

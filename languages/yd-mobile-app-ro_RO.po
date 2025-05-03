@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YD Mobile App 1.0.0\n"
+"POT-Creation-Date: 2025-04-30 18:42+0300\n"
+"PO-Revision-Date: 2025-04-30 20:10+0300\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: yd-mobile-app\n"
+
+msgid "Are you sure to remove this item?"
+msgstr "Sigur doriți să eliminați acest element?"
+
+msgid "Are you sure you want to clear all?"
+msgstr "Sigur doriți să goliți tot?"
+
+msgid "Mobile App"
+msgstr "Aplicație mobilă"
+
+msgid "Auto Translate"
+msgstr "Traducere automată"
+
+msgid "Translate only draft"
+msgstr "Tradu doar versiunile de ciornă"
+
+msgid "If enable this, translates only draft languages. Otherwise, translates all."
+msgstr "Dacă această opțiune este activată, se traduc doar limbile în stadiu de ciornă. Altfel, se traduc toate limbile."
+
+msgid "Ensures translates only draft languages."
+msgstr "Asigură traducerea doar a limbilor aflate în stadiu de ciornă."
+
+msgid "Translate selected languages"
+msgstr "Tradu limbile selectate"
+
+msgid "Enter language"
+msgstr "Introduceți limba"
+
+msgid "You can type keyword to search for supported language."
+msgstr "Puteți introduce un cuvânt‑cheie pentru a căuta o limbă acceptată."
+
+msgid "If decided to only selected language translate, select one or more supported language."
+msgstr "Dacă doriți să traduceți doar anumite limbi, selectați una sau mai multe limbi acceptate."
+
+msgid "Start translate"
+msgstr "Pornește traducerea"
+
+msgid "Auto translate is running"
+msgstr "Traducerea automată este în curs"
+
+msgid "Stop translate"
+msgstr "Oprește traducerea"
+
+msgid "Notice: Each press publish button, customer receives a new notification."
+msgstr "Notă: La fiecare apăsare a butonului de publicare, clientul primește o nouă notificare."
+
+msgid "Ensures appears title of notification."
+msgstr "Se asigură că titlul notificării este afișat."
+
+msgid "Enter title of notification."
+msgstr "Introduceți titlul notificării."
+
+msgid "Ensures appears text of notification."
+msgstr "Se asigură că textul notificării este afișat."
+
+msgid "Enter text of notification."
+msgstr "Introduceți textul notificării."
+
+msgid "Application languages translating automatically."
+msgstr "Limbile aplicației sunt traduse automat."
+
+msgid "Add new translate"
+msgstr "Adaugă traducere nouă"
+
+msgid "Default value"
+msgstr "Valoare implicită"
+
+msgid "Enter value"
+msgstr "Introduceți valoarea"
+
+msgid "Supported Languages"
+msgstr "Limbi acceptate"
+
+msgid "You can type keyword to search for language."
+msgstr "Puteți introduce un cuvânt‑cheie pentru a căuta o limbă."
+
+msgid "If decided to app is multilingual, define supported languages. This requires for widget content etc."
+msgstr "Dacă aplicația trebuie să fie multilingvă, definiți limbile acceptate. Acest lucru este necesar pentru conținutul widget‑urilor etc."
+
+msgid "Grid item"
+msgstr "Element grilă"
+
+msgid "Ensures define title on image. If desired to be empty title, title hides."
+msgstr "Definiți un titlu pe imagine. Dacă se dorește un titlu gol, acesta va fi ascuns."
+
+msgid "Appears title on the image."
+msgstr "Titlul apare pe imagine."
+
+msgid "Ensures select image for grid item. Only one image can select."
+msgstr "Selectați o imagine pentru elementul grilă. Se poate selecta o singură imagine."
+
+msgid "Appears selected image on grid item."
+msgstr "Imaginea selectată apare în elementul grilă."
+
+msgid "Label Item"
+msgstr "Element etichetă"
+
+msgid "Label"
+msgstr "Etichetă"
+
+msgid "Ensures define label on widget."
+msgstr "Definește o etichetă în widget."
+
+msgid "Appears label on the widget."
+msgstr "Eticheta este afișată în widget."
+
+msgid "Enable custom products"
+msgstr "Activează produse personalizate"
+
+msgid "If enable this, products are lists by product name otherwise lists products in the category."
+msgstr "Dacă este activat, produsele sunt listate după numele produsului, altfel produsele din categorie."
+
+msgid "Ensures enter only product name for below selection."
+msgstr "Introduceți doar numele produsului pentru selecția de mai jos."
+
+msgid "Category or product name"
+msgstr "Categorie sau nume produs"
+
+msgid "Enter name"
+msgstr "Introduceți numele"
+
+msgid "This ensures list products in the category or by product name."
+msgstr "Listează produse în categorie sau după numele produsului."
+
+msgid "Appears products in the category or by product name."
+msgstr "Afișează produse în categorie sau după numele produsului."
+
+msgid "Custom Parameters"
+msgstr "Parametri personalizați"
+
+msgid "The following options affect products filtering."
+msgstr "Următoarele opțiuni afectează filtrarea produselor."
+
+msgid "If desired filtering products by on sale or not, this option should be checked."
+msgstr "Dacă doriți să filtrați produsele după \"la promoție\" sau nu, bifați această opțiune."
+
+msgid "Ensures enable filtering products by on sale or not"
+msgstr "Activează filtrarea după \"la promoție\"."
+
+msgid "Ensures filter products by keywords."
+msgstr "Activează filtrarea după cuvinte‑cheie."
+
+msgid "Filters products by keywords: SKU, product name etc."
+msgstr "Filtrează produse după cuvinte‑cheie: SKU, nume produs etc."
+
+msgid "Ensures filter products by start with minimum price."
+msgstr "Activează filtrarea pornind de la un preț minim."
+
+msgid "Filters products by start with minimum price."
+msgstr "Filtrează produse pornind de la un preț minim."
+
+msgid "Ensures filter products limit by maximum price."
+msgstr "Activează limitarea filtrării la un preț maxim."
+
+msgid "Filters products limit by maximum price."
+msgstr "Filtrează produse până la un preț maxim."
+
+msgid "Slide"
+msgstr "Slide"
+
+msgid "Count of customers"
+msgstr "Număr de clienți"
+
+msgid "Shows the total of all registered customers."
+msgstr "Afișează numărul total de clienți înregistrați."
+
+msgid "Count of orders"
+msgstr "Număr de comenzi"
+
+msgid "Shows the total of all orders."
+msgstr "Afișează numărul total de comenzi."
+
+msgid "Total Sales"
+msgstr "Venituri"
+
+msgid "Shows the total amount of all paid orders."
+msgstr "Afișează veniturile totale."
+
+msgid "Total time spent"
+msgstr "Număr de produse"
+
+msgid "Shows the average time customers spend on the mobile app."
+msgstr "Afișează numărul total de produse."
+
+msgid "Ensures define type of widget. This option does not change later."
+msgstr "Activează butonul \"Mai mult\""
+
+msgid "Select type of widget."
+msgstr "Activează butonul \"Mai mult\" la sfârșitul listei."
+
+msgid "Add new %s"
+msgstr "Adaugă %s nou"
+
+msgid "Widget Type"
+msgstr "Tipul de widget"
+
+msgid "Firstly, select \"Target\" value for what want to do. If desired open an page, target is should be selected value of \"Product\" or \"Product List\". If desired do other process, \"Target\" value is should be selected \"Custom\"."
+msgstr "Mai întâi selectați valoarea „Țintă” pentru ceea ce doriți să faceți. Dacă doriți să deschideți o pagină, valoarea „Țintă” trebuie să fie „Produs” sau „Listă produse”. Pentru alte procese, valoarea „Țintă” trebuie să fie „Personalizat”."
+
+msgid "Ensures open a page or do other process."
+msgstr "Se asigură că se deschide o pagină sau se execută alt proces."
+
+msgid "This page, fixes language of text for front side."
+msgstr "Această pagină fixează limba textului pentru partea de front‑end."
+
+msgid "This year"
+msgstr "Anul acesta"
+
+msgid "This month"
+msgstr "Luna aceasta"
+
+msgid "This week"
+msgstr "Săptămâna aceasta"
+
+msgid "Target"
+msgstr "Țintă"
+
+msgid "Product list"
+msgstr "Listă produse"
+
+msgid "Product"
+msgstr "Produs"
+
+msgid "slide"
+msgstr "Slide"
+
+msgid "title"
+msgstr "Titlu"
+
+msgid "item"
+msgstr "Element"
+
+msgid "Key"
+msgstr "Cheie"
+
+msgid "Translating"
+msgstr "Traducere"
+
+msgid "Widgets"
+msgstr "Widget‑uri"
+
+msgid "Filter as sale"
+msgstr "Filtrează după promoție"
+
+msgid "Grid"
+msgstr "Grilă"
+
+msgid "Products Horizontal"
+msgstr "Produse orizontal"
+
+msgid "Slider"
+msgstr "Slider"
+
+msgid "Enter keyword"
+msgstr "Introduceți cuvânt‑cheie"
+
+msgid "Appears selected media on slide banner."
+msgstr "Afișează media selectată în bannerul slide."
+
+msgid "Ensures select media for slide banner. Only one media can select."
+msgstr "Selectați un media pentru bannerul slide. Se poate selecta un singur element media."
+
+msgid "Ensures change aspect ratio of slider."
+msgstr "Schimbă raportul de aspect al slider‑ului."
+
+msgid "If desired change orientation of slider, aspect ratio should change. Default value is:"
+msgstr "Dacă doriți să schimbați orientarea slider‑ului, raportul de aspect trebuie modificat. Valoarea implicită este:"
+
+msgid "Aspect ratio of slider"
+msgstr "Raport de aspect al slider‑ului"
+
+msgid "Remove media"
+msgstr "Elimină media"
+
+msgid "Select media"
+msgstr "Selectează media"
+
+msgid "Text border radius"
+msgstr "Raza chenarului textului"
+
+msgid "Text border width"
+msgstr "Lățimea chenarului textului"
+
+msgid "Text border color"
+msgstr "Culoarea chenarului textului"
+
+msgid "Text padding"
+msgstr "Spațiere internă text"
+
+msgid "Text background color"
+msgstr "Culoare fundal text"
+
+msgid "Text style class"
+msgstr "Clasă de stil text"
+
+msgid "Text alignment"
+msgstr "Aliniere text"
+
+msgid "Text font size"
+msgstr "Dimensiune font text"
+
+msgid "Text color"
+msgstr "Culoare text"
+
+msgid "Remove text"
+msgstr "Elimină textul"
+
+msgid "Clear texts"
+msgstr "Șterge textele"
+
+msgid "Add text"
+msgstr "Adaugă text"
+
+msgid "Text Views"
+msgstr "Vizualizări text"
+
+msgid "Media action"
+msgstr "Acțiune media"
+
+msgid "Ensures change foreground color for media."
+msgstr "Asigură schimbarea culorii de prim‑plan pentru media."
+
+msgid "Appears solid color on front of media."
+msgstr "Afișează o culoare solidă în fața media."
+
+msgid "Media foreground color"
+msgstr "Culoare prim‑plan media"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "Left bottom"
+msgstr "Stânga jos"
+
+msgid "Right bottom"
+msgstr "Dreapta jos"
+
+msgid "Right top"
+msgstr "Dreapta sus"
+
+msgid "Properties"
+msgstr "Proprietăți"
+
+msgid "Left top"
+msgstr "Stânga sus"
+
+msgid "Params"
+msgstr "Parametri"
+
+msgid "Add param"
+msgstr "Adaugă parametru"
+
+msgid "Clear params"
+msgstr "Șterge parametrii"
+
+msgid "Custom"
+msgstr "Personalizat"
+
+msgid "Tag"
+msgstr "Etichetă"
+
+msgid "Ensures define title on media. If desired to be empty title, title hides."
+msgstr "Definește un titlu pe media. Dacă se dorește un titlu gol, acesta este ascuns."
+
+msgid "Appears title on the media."
+msgstr "Titlul apare pe media."
+
+msgid "Ensures select media for grid item. Only one media can select."
+msgstr "Selectați un media pentru elementul grilă. Se poate selecta un singur media."
+
+msgid "Appears selected media on grid item."
+msgstr "Media selectată apare în elementul grilă."
+
+msgid "New translate"
+msgstr "Traducere nouă"
+
+msgid "On sale"
+msgstr "La promoție"
+
+msgid "Filters products by on sale or not."
+msgstr "Filtrează produsele după \"la promoție\" sau nu."
+
+msgid "Ensures filter products by on sale or not."
+msgstr "Se asigură filtrarea produselor după \"la promoție\"."
+
+msgid "Class"
+msgstr "Clasă"
+
+msgid "Ensures appear custom style in mobile app."
+msgstr "Asigură apariția stilurilor personalizate în aplicația mobilă."
+
+msgid "This field can fill for custom style in mobile app otherwise leave empty this field."
+msgstr "Acest câmp poate fi completat pentru stil personalizat în aplicația mobilă, altfel lăsați‑l gol."
+
+msgid "Action of "More" Button"
+msgstr "Acțiunea butonului „Mai mult”"

@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YD Mobile App 1.0.0\n"
+"POT-Creation-Date: 2025-04-30 18:42+0300\n"
+"PO-Revision-Date: 2025-04-30 20:10+0300\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: yd-mobile-app\n"
+
+msgid "Are you sure to remove this item?"
+msgstr "Sind Sie sicher, dass Sie dieses Element entfernen möchten?"
+
+msgid "Are you sure you want to clear all?"
+msgstr "Sind Sie sicher, dass Sie alles löschen möchten?"
+
+msgid "Mobile App"
+msgstr "Mobile App"
+
+msgid "Auto Translate"
+msgstr "Automatisch übersetzen"
+
+msgid "Translate only draft"
+msgstr "Nur schwebende Entwürfe übersetzen"
+
+msgid "If enable this, translates only draft languages. Otherwise, translates all."
+msgstr "Wenn diese Option aktiviert ist, werden nur Entwurfssprachen übersetzt. Andernfalls werden alle Sprachen übersetzt."
+
+msgid "Ensures translates only draft languages."
+msgstr "Stellt sicher, dass nur Entwurfssprachen übersetzt werden."
+
+msgid "Translate selected languages"
+msgstr "Ausgewählte Sprachen übersetzen"
+
+msgid "Enter language"
+msgstr "Sprache eingeben"
+
+msgid "You can type keyword to search for supported language."
+msgstr "Sie können ein Schlüsselwort eingeben, um nach einer unterstützten Sprache zu suchen."
+
+msgid "If decided to only selected language translate, select one or more supported language."
+msgstr "Falls nur bestimmte Sprachen übersetzt werden sollen, wählen Sie eine oder mehrere unterstützte Sprachen aus."
+
+msgid "Start translate"
+msgstr "Übersetzung starten"
+
+msgid "Auto translate is running"
+msgstr "Automatische Übersetzung läuft"
+
+msgid "Stop translate"
+msgstr "Übersetzung stoppen"
+
+msgid "Notice: Each press publish button, customer receives a new notification."
+msgstr "Hinweis: Jedes Mal, wenn der Veröffentlichen‑Button gedrückt wird, primește clientul o notificare nouă."
+
+msgid "Ensures appears title of notification."
+msgstr "Sorgt dafür, dass der Titel der Benachrichtigung angezeigt wird."
+
+msgid "Enter title of notification."
+msgstr "Titel der Benachrichtigung eingeben."
+
+msgid "Ensures appears text of notification."
+msgstr "Sorgt dafür, dass der Text der Benachrichtigung angezeigt wird."
+
+msgid "Enter text of notification."
+msgstr "Text der Benachrichtigung eingeben."
+
+msgid "Application languages translating automatically."
+msgstr "Anwendungssprachen werden automatisch übersetzt."
+
+msgid "Add new translate"
+msgstr "Neue Übersetzung hinzufügen"
+
+msgid "Default value"
+msgstr "Standardwert"
+
+msgid "Enter value"
+msgstr "Wert eingeben"
+
+msgid "Supported Languages"
+msgstr "Unterstützte Sprachen"
+
+msgid "You can type keyword to search for language."
+msgstr "Sie können ein Schlüsselwort eingeben, um nach einer Sprache zu suchen."
+
+msgid "If decided to app is multilingual, define supported languages. This requires for widget content etc."
+msgstr "Falls die App mehrsprachig sein soll, definieren Sie die unterstützten Sprachen. Acest lucru este necesar pentru conținutul widget‑urilor etc."
+
+msgid "Grid item"
+msgstr "Rasterelement"
+
+msgid "Ensures define title on image. If desired to be empty title, title hides."
+msgstr "Definiert einen Titel auf dem Bild. Falls der Titel leer sein soll, wird er ausgeblendet."
+
+msgid "Appears title on the image."
+msgstr "Titel wird auf dem Bild angezeigt."
+
+msgid "Ensures select image for grid item. Only one image can select."
+msgstr "Wählt ein Bild für das Rasterelement aus. Es kann nur ein Bild gewählt werden."
+
+msgid "Appears selected image on grid item."
+msgstr "Das ausgewählte Bild erscheint im Rasterelement."
+
+msgid "Label Item"
+msgstr "Label‑Element"
+
+msgid "Label"
+msgstr "Label"
+
+msgid "Ensures define label on widget."
+msgstr "Definiert ein Label im Widget."
+
+msgid "Appears label on the widget."
+msgstr "Label wird im Widget angezeigt."
+
+msgid "Enable custom products"
+msgstr "Benutzerdefinierte Produkte aktivieren"
+
+msgid "If enable this, products are lists by product name otherwise lists products in the category."
+msgstr "Wenn aktiviert, werden Produkte nach Produktnamen gelistet, andernfalls Produkte aus der Kategorie."
+
+msgid "Ensures enter only product name for below selection."
+msgstr "Geben Sie nur den Produktnamen für die folgende Auswahl ein."
+
+msgid "Category or product name"
+msgstr "Kategorie‑ oder Produktname"
+
+msgid "Enter name"
+msgstr "Name eingeben"
+
+msgid "This ensures list products in the category or by product name."
+msgstr "Listet Produkte in der Kategorie oder nach Produktnamen auf."
+
+msgid "Appears products in the category or by product name."
+msgstr "Zeigt Produkte in der Kategorie oder nach Produktnamen an."
+
+msgid "Custom Parameters"
+msgstr "Benutzerdefinierte Parameter"
+
+msgid "The following options affect products filtering."
+msgstr "Die folgenden Optionen beeinflussen die Produktfilterung."
+
+msgid "If desired filtering products by on sale or not, this option should be checked."
+msgstr "Wenn Sie Produkte nach \"Im Angebot\" filtern möchten, aktivieren Sie diese Option."
+
+msgid "Ensures enable filtering products by on sale or not"
+msgstr "Aktiviert das Filtern nach \"Im Angebot\"."
+
+msgid "Ensures filter products by keywords."
+msgstr "Aktiviert das Filtern nach Schlüsselwörtern."
+
+msgid "Filters products by keywords: SKU, product name etc."
+msgstr "Filtert Produkte nach Schlüsselwörtern: SKU, Produktname usw."
+
+msgid "Ensures filter products by start with minimum price."
+msgstr "Aktiviert das Filtern ab einem Mindestpreis."
+
+msgid "Filters products by start with minimum price."
+msgstr "Filtert Produkte ab einem Mindestpreis."
+
+msgid "Ensures filter products limit by maximum price."
+msgstr "Aktiviert das Filtern bis zu einem Höchstpreis."
+
+msgid "Filters products limit by maximum price."
+msgstr "Filtert Produkte bis zu einem Höchstpreis."
+
+msgid "Slide"
+msgstr "Folie"
+
+msgid "Count of customers"
+msgstr "Anzahl der Kunden"
+
+msgid "Shows the total of all registered customers."
+msgstr "Zeigt die Gesamtzahl aller registrierten Kunden an."
+
+msgid "Count of orders"
+msgstr "Anzahl der Bestellungen"
+
+msgid "Shows the total of all orders."
+msgstr "Zeigt die Gesamtzahl aller Bestellungen an."
+
+msgid "Total Sales"
+msgstr "Einnahmen"
+
+msgid "Shows the total amount of all paid orders."
+msgstr "Zeigt die Gesamteinnahmen an."
+
+msgid "Total time spent"
+msgstr "Anzahl der Produkte"
+
+msgid "Shows the average time customers spend on the mobile app."
+msgstr "Zeigt die Gesamtzahl aller Produkte an."
+
+msgid "Ensures define type of widget. This option does not change later."
+msgstr "\"Mehr\"‑Button aktivieren"
+
+msgid "Select type of widget."
+msgstr "Aktiviert den Button \"Mehr\" am Ende der Liste."
+
+msgid "Add new %s"
+msgstr "Neues %s hinzufügen"
+
+msgid "Widget Type"
+msgstr "Widget-Typ"
+
+msgid "Firstly, select \"Target\" value for what want to do. If desired open an page, target is should be selected value of \"Product\" or \"Product List\". If desired do other process, \"Target\" value is should be selected \"Custom\"."
+msgstr "Wählen Sie zunächst den Wert „Ziel“, um festzulegen, was getan werden soll. Soll eine Seite geöffnet werden, muss „Produkt“ oder „Produktliste“ gewählt werden. Für andere Vorgänge muss „Benutzerdefiniert“ gewählt werden."
+
+msgid "Ensures open a page or do other process."
+msgstr "Sorgt dafür, dass eine Seite geöffnet oder ein anderer Vorgang ausgeführt wird."
+
+msgid "This page, fixes language of text for front side."
+msgstr "Auf dieser Seite wird die Sprache des Textes für die Vorderseite festgelegt."
+
+msgid "This year"
+msgstr "Dieses Jahr"
+
+msgid "This month"
+msgstr "Dieser Monat"
+
+msgid "This week"
+msgstr "Diese Woche"
+
+msgid "Target"
+msgstr "Ziel"
+
+msgid "Product list"
+msgstr "Produktliste"
+
+msgid "Product"
+msgstr "Produkt"
+
+msgid "slide"
+msgstr "Folie"
+
+msgid "title"
+msgstr "Titel"
+
+msgid "item"
+msgstr "Element"
+
+msgid "Key"
+msgstr "Schlüssel"
+
+msgid "Translating"
+msgstr "Übersetzung"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+msgid "Filter as sale"
+msgstr "Nach Angebot filtern"
+
+msgid "Grid"
+msgstr "Raster"
+
+msgid "Products Horizontal"
+msgstr "Produkte (horizontal)"
+
+msgid "Slider"
+msgstr "Slider"
+
+msgid "Enter keyword"
+msgstr "Schlüsselwort eingeben"
+
+msgid "Appears selected media on slide banner."
+msgstr "Zeigt das ausgewählte Medium im Slide‑Banner an."
+
+msgid "Ensures select media for slide banner. Only one media can select."
+msgstr "Wählt ein Medium für das Slide‑Banner aus. Es kann nur ein Medium ausgewählt werden."
+
+msgid "Ensures change aspect ratio of slider."
+msgstr "Stellt das Seitenverhältnis des Sliders ein."
+
+msgid "If desired change orientation of slider, aspect ratio should change. Default value is:"
+msgstr "Wenn Sie die Ausrichtung des Sliders ändern möchten, muss das Seitenverhältnis angepasst werden. Standardwert ist:"
+
+msgid "Aspect ratio of slider"
+msgstr "Seitenverhältnis des Sliders"
+
+msgid "Remove media"
+msgstr "Medium entfernen"
+
+msgid "Select media"
+msgstr "Medium auswählen"
+
+msgid "Text border radius"
+msgstr "Text‑Rahmenradius"
+
+msgid "Text border width"
+msgstr "Text‑Rahmenbreite"
+
+msgid "Text border color"
+msgstr "Text‑Rahmenfarbe"
+
+msgid "Text padding"
+msgstr "Text‑Innenabstand"
+
+msgid "Text background color"
+msgstr "Text‑Hintergrundfarbe"
+
+msgid "Text style class"
+msgstr "Text‑Stilklasse"
+
+msgid "Text alignment"
+msgstr "Text‑Ausrichtung"
+
+msgid "Text font size"
+msgstr "Text‑Schriftgröße"
+
+msgid "Text color"
+msgstr "Textfarbe"
+
+msgid "Remove text"
+msgstr "Text entfernen"
+
+msgid "Clear texts"
+msgstr "Texte löschen"
+
+msgid "Add text"
+msgstr "Text hinzufügen"
+
+msgid "Text Views"
+msgstr "Textansichten"
+
+msgid "Media action"
+msgstr "Medienaktion"
+
+msgid "Ensures change foreground color for media."
+msgstr "Stellt sicher, dass die Vordergrundfarbe des Mediums geändert wird."
+
+msgid "Appears solid color on front of media."
+msgstr "Zeigt eine Vollfarbe vor dem Medium an."
+
+msgid "Media foreground color"
+msgstr "Medien‑Vordergrundfarbe"
+
+msgid "Media"
+msgstr "Medien"
+
+msgid "Left bottom"
+msgstr "Links unten"
+
+msgid "Right bottom"
+msgstr "Rechts unten"
+
+msgid "Right top"
+msgstr "Rechts oben"
+
+msgid "Properties"
+msgstr "Eigenschaften"
+
+msgid "Left top"
+msgstr "Links oben"
+
+msgid "Params"
+msgstr "Parameter"
+
+msgid "Add param"
+msgstr "Parameter hinzufügen"
+
+msgid "Clear params"
+msgstr "Parameter löschen"
+
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+msgid "Tag"
+msgstr "Tag"
+
+msgid "Ensures define title on media. If desired to be empty title, title hides."
+msgstr "Definiert einen Titel auf dem Medium. Wenn der Titel leer sein soll, wird er ausgeblendet."
+
+msgid "Appears title on the media."
+msgstr "Titel wird auf dem Medium angezeigt."
+
+msgid "Ensures select media for grid item. Only one media can select."
+msgstr "Wählt ein Medium für das Rasterelement aus. Es kann nur ein Medium ausgewählt werden."
+
+msgid "Appears selected media on grid item."
+msgstr "Das ausgewählte Medium erscheint im Rasterelement."
+
+msgid "New translate"
+msgstr "Neue Übersetzung"
+
+msgid "On sale"
+msgstr "Im Angebot"
+
+msgid "Filters products by on sale or not."
+msgstr "Filtert Produkte nach \"Im Angebot\" oder nicht."
+
+msgid "Ensures filter products by on sale or not."
+msgstr "Stellt sicher, dass nach \"Im Angebot\" gefiltert wird."
+
+msgid "Class"
+msgstr "Klasse"
+
+msgid "Ensures appear custom style in mobile app."
+msgstr "Sorgt dafür, dass benutzerdefinierte Stile in der mobilen App erscheinen."
+
+msgid "This field can fill for custom style in mobile app otherwise leave empty this field."
+msgstr "Dieses Feld kann für benutzerdefinierte Stile in der mobilen App ausgefüllt werden, andernfalls leer lassen."
+
+msgid "Action of "More" Button"
+msgstr "Aktion des „Mehr“‑Buttons"

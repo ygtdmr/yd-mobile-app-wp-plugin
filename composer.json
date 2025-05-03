@@ -1,0 +1,6 @@
+{
+    "require": {
+        "gettext/gettext": "^5.7",
+        "stichoza/google-translate-php": "^5.1"
+    }
+}

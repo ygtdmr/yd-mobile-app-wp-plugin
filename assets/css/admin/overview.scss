@@ -1,0 +1,108 @@
+/**
+ * Summary statistics layout and tab navigation styles
+ *
+ * Author: Yigit Demir
+ * Version: 1.0.0
+ * Since: 1.0.0
+ */
+
+ .summary-stats {
+	// Centers the summary stats container and limits its width
+	margin: auto;
+	max-width: 800px;
+  }
+  
+  .summary-stats-grid {
+	// Grid layout for summary stats section
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-areas: "header header";
+	gap: 16px;
+  
+	> .stuffbox {
+	  // Removes bottom margin from stuffboxes
+	  margin-bottom: 0;
+  
+	  &:first-child {
+		// Assigns the first stuffbox to header area
+		grid-area: header;
+	  }
+  
+	  > .inside {
+		// Adds internal padding inside each stuffbox
+		padding: 8px 10px !important;
+	  }
+	}
+  
+	p {
+	  // Paragraph style inside the grid
+	  margin: 4px 0;
+	  color: #808080;
+	}
+  
+	.spinner {
+	  // Spinner appearance inside the grid
+	  float: none;
+	  margin: 4px 0;
+	}
+  }
+  
+  .summary-stats-tabs {
+	span {
+	  // Styling for each tab
+	  padding: 8px 16px;
+	  display: inline-block;
+	  cursor: pointer;
+  
+	  &:first-of-type {
+		// Removes padding from the first tab's left side
+		padding-left: 0;
+	  }
+  
+	  &[data-selected] {
+		// Active tab styling
+		font-weight: bold;
+  
+		&::after {
+		  // Underline indicator for selected tab
+		  content: "";
+		  width: 100%;
+		  height: 2px;
+		  display: block;
+		  margin: 3px auto;
+		  background: var(--wp-admin-theme-color-2);
+		}
+	  }
+  
+	  &:not([data-selected]) {
+		// Inactive tab styling
+		color: gray;
+  
+		&:hover {
+		  // Hover effect for inactive tabs
+		  color: black;
+		}
+	  }
+	}
+  }
+  
+  @media only screen and (max-width: 850px) {
+	.summary-stats-tabs {
+	  span {
+		// Adjusts padding for tabs on small screens
+		padding: 8px;
+  
+		&:first-of-type {
+		  padding-left: 8px;
+		}
+	  }
+	}
+  
+	.summary-stats-grid {
+	  // Responsive layout: changes from grid to flex column
+	  display: flex;
+	  flex-direction: column;
+	  gap: 8px;
+	}
+  }
+  

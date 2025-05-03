@@ -1,0 +1,171 @@
+/**
+ * SCSS styles for Admin slider and widget styles
+ *
+ * Provides layout and interaction styling for
+ * - Postbox header tweaks
+ * - Widget slider slide structure
+ * - Text view input areas
+ * - Media slide preview
+ * - Responsive behavior up to 850px
+ *
+ * Author: Yigit Demir
+ * Version: 1.0.0
+ * Since: 1.0.0
+ */
+
+ .yd-mobile-app {
+	// Parent container for all admin UI elements related to the mobile app.
+  
+	.postbox {
+	  // WordPress postbox wrapper.
+  
+	  .postbox-header {
+		padding-right: 4px; // Align header content flush with right edge.
+	  }
+  
+	  .yd-widget-slider-slide {
+		// Root element for each slide row in the widget slider.
+		display: flex; // Keep preview and text columns side‑by‑side.
+  
+		.slide-preview {
+		  display: flex;
+		  flex-direction: column; // Stack preview items vertically.
+		  width: 100%;
+		  border-left: 1px solid #c3c4c7; // Separate preview from controls.
+		}
+  
+		.text-views {
+		  // Column holding multiple text view blocks.
+  
+		  .text-view {
+			padding-top: 8px;
+			padding-bottom: 16px;
+			border-bottom: 1px solid #c3c4c7; // Visual separation between blocks.
+  
+			.yd-admin-ui-input-selection-action {
+			  // Wrapper for WP media selector component.
+  
+			  br {
+				display: none; // Remove unwanted line break created by WP core.
+			  }
+  
+			  h4 {
+				margin-top: 4px;
+				margin-bottom: 4px; // Compact heading spacing.
+			  }
+			}
+  
+			.input-area {
+			  display: flex;
+			  gap: 8px;
+			  flex-wrap: wrap; // Allow inputs to wrap on smaller screens.
+			  margin-top: 4px;
+  
+			  small {
+				display: block; // Ensure <small> spans the entire row.
+			  }
+			}
+  
+			& > .delete {
+			  display: inline-block;
+			  margin-top: 16px; // Add breathing room before delete link/button.
+			}
+  
+			[data-action="toggle-properties"] {
+			  text-decoration: underline;
+			  margin-bottom: 8px;
+			  cursor: pointer;
+  
+			  &::after {
+				// Dashicon chevron indicator.
+				display: inline-block;
+				content: "\f140"; // Closed state icon.
+				font: normal 20px/1 dashicons;
+				vertical-align: sub;
+			  }
+  
+			  &.expanded::after {
+				content: "\f142"; // Expanded state icon.
+			  }
+			}
+  
+			.properties:not(.expanded + .properties) {
+			  display: none; // Hide properties unless preceding toggle is expanded.
+			}
+		  }
+		}
+  
+		.slide {
+		  position: relative;
+		  display: flex;
+		  width: 480px; // Fixed design width for preview.
+		  box-sizing: border-box;
+		  align-self: center; // Vertically center inside flex parent.
+		  outline: 1px solid #aaa;
+		  margin-bottom: 16px;
+  
+		  .media {
+			width: 100%;
+			object-fit: cover; // Preserve aspect and fill container.
+			display: flex;
+		  }
+  
+		  .container {
+			overflow: hidden; // Clip overflowing draggable elements.
+  
+			.spinner {
+			  // Center loading spinner.
+			  position: absolute;
+			  left: 50%;
+			  top: 50%;
+			  margin: 0;
+			  transform: translate(-50%, -50%);
+			}
+  
+			&, & > .media-fg-color {
+			  // Pseudo-element overlay to allow FG tinting.
+			  content: "";
+			  position: absolute;
+			  inset: 0;
+			}
+  
+			p {
+			  // Draggable text layer.
+			  position: absolute !important;
+			  margin: 0;
+			  max-width: calc(100% - 32px);
+			  border-style: solid;
+			  cursor: move;
+			  user-select: none;
+			  -webkit-user-select: none;
+			  white-space: break-spaces;
+  
+			  &:hover {
+				outline: 1px solid black; // Visual aid while editing.
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }
+  
+  @media only screen and (max-width: 850px) {
+	// Stack preview below controls on small screens.
+	.yd-widget-slider-slide {
+	  flex-direction: column-reverse;
+	  .slide-preview {
+		  border-left: none !important;
+		  padding: 0 12px;
+		  box-sizing: border-box;
+
+		  & > h2 {
+			text-align: center;
+		  }
+	  }
+	  .slide {
+		width: 100% !important;
+	  }
+	}
+  }
+  

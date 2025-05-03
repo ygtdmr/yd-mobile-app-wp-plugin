@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YD Mobile App 1.0.0\n"
+"POT-Creation-Date: 2025-04-30 18:42+0300\n"
+"PO-Revision-Date: 2025-04-30 20:10+0300\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: yd-mobile-app\n"
+
+msgid "Are you sure to remove this item?"
+msgstr "Bu öğeyi kaldırmak istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to clear all?"
+msgstr "Tümünü temizlemek istediğinizden emin misiniz?"
+
+msgid "Mobile App"
+msgstr "Mobil Uygulama"
+
+msgid "Auto Translate"
+msgstr "Otomatik Çeviri"
+
+msgid "Translate only draft"
+msgstr "Yalnızca Taslakları Çevir"
+
+msgid "If enable this, translates only draft languages. Otherwise, translates all."
+msgstr "Bu özellik etkinleştirilirse yalnızca taslak diller çevrilir; aksi takdirde tüm diller çevrilir."
+
+msgid "Ensures translates only draft languages."
+msgstr "Yalnızca taslak dillerin çevrilmesini sağlar."
+
+msgid "Translate selected languages"
+msgstr "Seçilen Dilleri Çevir"
+
+msgid "Enter language"
+msgstr "Dil Girin"
+
+msgid "You can type keyword to search for supported language."
+msgstr "Desteklenen diller arasında arama yapmak için anahtar kelime yazabilirsiniz."
+
+msgid "If decided to only selected language translate, select one or more supported language."
+msgstr "Yalnızca seçili dillerin çevrilmesini istiyorsanız, bir veya daha fazla desteklenen dil seçin."
+
+msgid "Start translate"
+msgstr "Çeviriyi Başlat"
+
+msgid "Auto translate is running"
+msgstr "Otomatik çeviri çalışıyor"
+
+msgid "Stop translate"
+msgstr "Çeviriyi Durdur"
+
+msgid "Notice: Each press publish button, customer receives a new notification."
+msgstr "Uyarı: Yayınla düğmesine her basıldığında müşteri yeni bir bildirim alır."
+
+msgid "Ensures appears title of notification."
+msgstr "Bildirim başlığının görünmesini sağlar."
+
+msgid "Enter title of notification."
+msgstr "Bildirim başlığını girin."
+
+msgid "Ensures appears text of notification."
+msgstr "Bildirim metninin görünmesini sağlar."
+
+msgid "Enter text of notification."
+msgstr "Bildirim metnini girin."
+
+msgid "Application languages translating automatically."
+msgstr "Uygulama dilleri otomatik olarak çevriliyor."
+
+msgid "Add new translate"
+msgstr "Yeni Çeviri Ekle"
+
+msgid "Default value"
+msgstr "Varsayılan Değer"
+
+msgid "Enter value"
+msgstr "Değer Girin"
+
+msgid "Supported Languages"
+msgstr "Desteklenen Diller"
+
+msgid "You can type keyword to search for language."
+msgstr "Dil aramak için anahtar kelime yazabilirsiniz."
+
+msgid "If decided to app is multilingual, define supported languages. This requires for widget content etc."
+msgstr "Uygulamanın çok dilli olmasına karar verildiyse, desteklenen dilleri tanımlayın. Bu, bileşen içeriği vb. için gereklidir."
+
+msgid "Grid item"
+msgstr "Izgara Öğesi"
+
+msgid "Ensures define title on image. If desired to be empty title, title hides."
+msgstr "Görselde başlık tanımlamanızı sağlar. Başlık boş bırakılırsa görünmez."
+
+msgid "Appears title on the image."
+msgstr "Görselde başlık görünür."
+
+msgid "Ensures select image for grid item. Only one image can select."
+msgstr "Izgara öğesi için bir resim seçmenizi sağlar. Yalnızca bir resim seçilebilir."
+
+msgid "Appears selected image on grid item."
+msgstr "Seçilen resim ızgara öğesinde görünür."
+
+msgid "Label Item"
+msgstr "Etiket Öğesi"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Ensures define label on widget."
+msgstr "Bileşende etiket tanımlamanızı sağlar."
+
+msgid "Appears label on the widget."
+msgstr "Etiket bileşende görünür."
+
+msgid "Enable custom products"
+msgstr "Özel Ürünleri Etkinleştir"
+
+msgid "If enable this, products are lists by product name otherwise lists products in the category."
+msgstr "Bu özellik etkinleştirilirse ürünler ürün adına göre listelenir; aksi takdirde kategorideki ürünler listelenir."
+
+msgid "Ensures enter only product name for below selection."
+msgstr "Aşağıdaki seçim için yalnızca ürün adının girilmesini sağlar."
+
+msgid "Category or product name"
+msgstr "Kategori veya Ürün Adı"
+
+msgid "Enter name"
+msgstr "Ad Girin"
+
+msgid "This ensures list products in the category or by product name."
+msgstr "Bu, ürünleri kategoriye veya ürün adına göre listelemenizi sağlar."
+
+msgid "Appears products in the category or by product name."
+msgstr "Ürünler, kategoriye veya ürün adına göre görüntülenir."
+
+msgid "Custom Parameters"
+msgstr "Özel Parametreler"
+
+msgid "The following options affect products filtering."
+msgstr "Aşağıdaki seçenekler ürün filtrelemeyi etkiler."
+
+msgid "If desired filtering products by on sale or not, this option should be checked."
+msgstr "Ürünleri indirimde olup olmadığına göre filtrelemek istiyorsanız bu seçeneği işaretleyin."
+
+msgid "Ensures enable filtering products by on sale or not"
+msgstr "Ürünleri indirimde olup olmadığına göre filtrelemeyi etkinleştirir."
+
+msgid "Ensures filter products by keywords."
+msgstr "Ürünleri anahtar kelimelere göre filtrelemenizi sağlar."
+
+msgid "Filters products by keywords: SKU, product name etc."
+msgstr "Ürünleri şu anahtar kelimelerle filtreler: SKU, ürün adı vb."
+
+msgid "Ensures filter products by start with minimum price."
+msgstr "Ürünleri minimum fiyattan başlayarak filtrelemenizi sağlar."
+
+msgid "Filters products by start with minimum price."
+msgstr "Ürünleri minimum fiyattan başlayarak filtreler."
+
+msgid "Ensures filter products limit by maximum price."
+msgstr "Ürünleri azami fiyata göre filtrelemenizi sağlar."
+
+msgid "Filters products limit by maximum price."
+msgstr "Ürünleri azami fiyata göre sınırlar."
+
+msgid "Slide"
+msgstr "Slayt"
+
+msgid "Count of customers"
+msgstr "Müşteri Sayısı"
+
+msgid "Shows the total of all registered customers."
+msgstr "Kayıtlı tüm müşterilerin toplamını gösterir."
+
+msgid "Count of orders"
+msgstr "Sipariş Sayısı"
+
+msgid "Shows the total of all orders."
+msgstr "Tüm siparişlerin toplamını gösterir."
+
+msgid "Total Sales"
+msgstr "Toplam Satış"
+
+msgid "Shows the total amount of all paid orders."
+msgstr "Ödenmiş tüm siparişlerin toplam tutarını gösterir."
+
+msgid "Total time spent"
+msgstr "Harcanan Toplam Süre"
+
+msgid "Shows the average time customers spend on the mobile app."
+msgstr "Müşterilerin mobil uygulamada geçirdikleri ortalama süreyi gösterir."
+
+msgid "Ensures define type of widget. This option does not change later."
+msgstr "Bileşen türünü tanımlamanızı sağlar. Bu seçenek daha sonra değiştirilemez."
+
+msgid "Select type of widget."
+msgstr "Bileşen türü seçin."
+
+msgid "Add new %s"
+msgstr "Yeni %s Ekle"
+
+msgid "Widget Type"
+msgstr "Bileşen Türü"
+
+msgid "Firstly, select \"Target\" value for what want to do. If desired open an page, target is should be selected value of \"Product\" or \"Product List\". If desired do other process, \"Target\" value is should be selected \"Custom\"."
+msgstr "İlk olarak, ne yapmak isteyen \"hedef\" değerini seçin. İstenirse bir sayfayı aç, hedef \"ürün\" veya \"ürün listesi\" değeri seçilmelidir. İstenirse başka bir işlem yapın, \"hedef\" değeri \"özel\" seçilmelidir."
+
+msgid "Ensures open a page or do other process."
+msgstr "Bir sayfa açılmasını veya başka bir işlemin gerçekleştirilmesini sağlar."
+
+msgid "This page, fixes language of text for front side."
+msgstr "Bu sayfa, ön taraftaki metnin dilini düzeltir."
+
+msgid "This year"
+msgstr "Bu Yıl"
+
+msgid "This month"
+msgstr "Bu Ay"
+
+msgid "This week"
+msgstr "Bu Hafta"
+
+msgid "Target"
+msgstr "Hedef"
+
+msgid "Product list"
+msgstr "Ürün Listesi"
+
+msgid "Product"
+msgstr "Ürün"
+
+msgid "slide"
+msgstr "slayt"
+
+msgid "title"
+msgstr "başlık"
+
+msgid "item"
+msgstr "öğe"
+
+msgid "Key"
+msgstr "Anahtar"
+
+msgid "Translating"
+msgstr "Çevriliyor"
+
+msgid "Widgets"
+msgstr "Widget'lar"
+
+msgid "Filter as sale"
+msgstr "İndirimde Olarak Filtrele"
+
+msgid "Grid"
+msgstr "Izgara"
+
+msgid "Products Horizontal"
+msgstr "Ürünler - Yatay"
+
+msgid "Slider"
+msgstr "Kaydırıcı"
+
+msgid "Enter keyword"
+msgstr "Anahtar Kelime Girin"
+
+msgid "Appears selected media on slide banner."
+msgstr "Seçilen medya slayt banner'ında görünür."
+
+msgid "Ensures select media for slide banner. Only one media can select."
+msgstr "Slayt banner'ı için medya seçmenizi sağlar. Yalnızca bir medya seçilebilir."
+
+msgid "Ensures change aspect ratio of slider."
+msgstr "Kaydırıcının en‑boy oranını değiştirmenizi sağlar."
+
+msgid "If desired change orientation of slider, aspect ratio should change. Default value is:"
+msgstr "Kaydırıcının yönünü değiştirmek istiyorsanız en‑boy oranını ayarlamalısınız. Varsayılan değer:"
+
+msgid "Aspect ratio of slider"
+msgstr "Kaydırıcının En‑Boy Oranı"
+
+msgid "Remove media"
+msgstr "Medyayı Kaldır"
+
+msgid "Select media"
+msgstr "Medya Seç"
+
+msgid "Text border radius"
+msgstr "Metin Kenar Yarıçapı"
+
+msgid "Text border width"
+msgstr "Metin Kenar Genişliği"
+
+msgid "Text border color"
+msgstr "Metin Kenar Rengi"
+
+msgid "Text padding"
+msgstr "Metin Dolgusu"
+
+msgid "Text background color"
+msgstr "Metin Arkaplan Rengi"
+
+msgid "Text style class"
+msgstr "Metin Stil Sınıfı"
+
+msgid "Text alignment"
+msgstr "Metin Hizalaması"
+
+msgid "Text font size"
+msgstr "Metin Yazı Tipi Boyutu"
+
+msgid "Text color"
+msgstr "Metin Rengi"
+
+msgid "Remove text"
+msgstr "Metni Kaldır"
+
+msgid "Clear texts"
+msgstr "Metinleri Temizle"
+
+msgid "Add text"
+msgstr "Metin Ekle"
+
+msgid "Text Views"
+msgstr "Metin Görünümleri"
+
+msgid "Media action"
+msgstr "Medya Eylemi"
+
+msgid "Ensures change foreground color for media."
+msgstr "Medya için önplan rengini değiştirmenizi sağlar."
+
+msgid "Appears solid color on front of media."
+msgstr "Medyanın önünde düz bir renk görünür."
+
+msgid "Media foreground color"
+msgstr "Medya Önplan Rengi"
+
+msgid "Media"
+msgstr "Medya"
+
+msgid "Left bottom"
+msgstr "Sol Alt"
+
+msgid "Right bottom"
+msgstr "Sağ Alt"
+
+msgid "Right top"
+msgstr "Sağ Üst"
+
+msgid "Properties"
+msgstr "Özellikler"
+
+msgid "Left top"
+msgstr "Sol Üst"
+
+msgid "Params"
+msgstr "Parametreler"
+
+msgid "Add param"
+msgstr "Parametre Ekle"
+
+msgid "Clear params"
+msgstr "Parametreleri Temizle"
+
+msgid "Custom"
+msgstr "Özel"
+
+msgid "Tag"
+msgstr "Etiket"
+
+msgid "Ensures define title on media. If desired to be empty title, title hides."
+msgstr "Medyada başlık tanımlamanızı sağlar. Başlık boş bırakılırsa görünmez."
+
+msgid "Appears title on the media."
+msgstr "Medyada başlık görünür."
+
+msgid "Ensures select media for grid item. Only one media can select."
+msgstr "Izgara öğesi için medya seçmenizi sağlar. Yalnızca bir medya seçilebilir."
+
+msgid "Appears selected media on grid item."
+msgstr "Seçilen medya ızgara öğesinde görünür."
+
+msgid "New translate"
+msgstr "Yeni Çeviri"
+
+msgid "On sale"
+msgstr "İndirimde"
+
+msgid "Filters products by on sale or not."
+msgstr "Ürünleri indirim durumuna göre filtreler."
+
+msgid "Ensures filter products by on sale or not."
+msgstr "Ürünleri indirim durumuna göre filtrelemenizi sağlar."
+
+msgid "Class"
+msgstr "Sınıf"
+
+msgid "Ensures appear custom style in mobile app."
+msgstr "Mobil uygulamada özel stilin görünmesini sağlar."
+
+msgid "This field can fill for custom style in mobile app otherwise leave empty this field."
+msgstr "Mobil uygulamada özel stil için bu alan doldurabilir, aksi takdirde bu alanı boş bırakın."
+
+msgid "Action of "More" Button"
+msgstr "\"Daha Fazla\" düğmesinin eylemi"
