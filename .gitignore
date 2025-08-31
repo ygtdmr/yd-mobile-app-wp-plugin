@@ -2,3 +2,5 @@
 .DS_Store
 doc
 vendor
+*.css
+*.css.map

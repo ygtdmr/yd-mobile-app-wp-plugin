@@ -41,8 +41,7 @@ final class Customer_Order_Message_Send extends \YD\REST_API\Response {
 	public function get_callback( ?\WP_REST_Request $request = null ) {
 		$messages = parent::get_customer()->send_order_message(
 			$request['order_id'],
-			$request['message'],
-			'yd-mobile-app'
+			$request['message']
 		);
 
 		if ( $messages instanceof \WP_Error ) {

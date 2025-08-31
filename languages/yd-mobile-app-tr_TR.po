@@ -279,12 +279,6 @@ msgstr "Kaydırıcının yönünü değiştirmek istiyorsanız en‑boy oranın�
 msgid "Aspect ratio of slider"
 msgstr "Kaydırıcının En‑Boy Oranı"
 
-msgid "Remove media"
-msgstr "Medyayı Kaldır"
-
-msgid "Select media"
-msgstr "Medya Seç"
-
 msgid "Text border radius"
 msgstr "Metin Kenar Yarıçapı"
 

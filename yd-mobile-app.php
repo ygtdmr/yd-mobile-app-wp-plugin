@@ -5,25 +5,26 @@
  * @package YD
  * @author Yigit Demir
  * @since 1.0.0
- * @version 1.0.0
+ * @version 1.0.1
  *
  * Plugin Name: Mobile App Management
- * Requires Plugins: yd-core
+ * Plugin URI: https://github.com/ygtdmr/yd-mobile-app-wp-plugin
  * Description: Configures some contents in mobile app.
  * Author: Yigit Demir
  * Author URI: https://github.com/ygtdmr
- * Version: 1.0.0
+ * Version: 1.0.1
  * Text Domain: yd-mobile-app
  * Domain Path: /languages
  * Requires at least: 6.8
  * Requires PHP: 8.0
+ * Requires Plugins: yd-core
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * WC requires at least: 9.8
- * WC tested up to: 9.8.3
+ * WC requires at least: 10.1
+ * WC tested up to: 10.1.2
  */
 
-( defined( 'ABSPATH' ) && defined( 'YD_CORE' ) ) || exit;
+( defined( 'ABSPATH' ) ) || exit;
 
 /**
  * 'yd_mobile_app_update_slug' function sets global variables related to mobile app update.
@@ -36,8 +37,12 @@
  * @return void
  */
 function yd_mobile_app_update_slug() {
-	$GLOBALS['YD_CURRENT_PLUGIN']            = YD_MOBILE_APP;
-	$GLOBALS['YD_CURRENT_PLUGIN_CLASS_NAME'] = 'Mobile_App';
+	if ( empty( $GLOBALS['YD_CURRENT_PLUGIN'] ) ) {
+		$GLOBALS['YD_CURRENT_PLUGIN'] = YD_MOBILE_APP;
+	}
+	if ( empty( $GLOBALS['YD_CURRENT_PLUGIN_CLASS_NAME'] ) ) {
+		$GLOBALS['YD_CURRENT_PLUGIN_CLASS_NAME'] = 'Mobile_App';
+	}
 }
 
 /**
@@ -80,6 +85,9 @@ function yd_mobile_app_before_init() {
 	require_once __DIR__ . '/src/task/class-task-library.php';
 
 	new \YD\Mobile_App\Library\Task_Library();
+
+	unset( $GLOBALS['YD_CURRENT_PLUGIN'] );
+	unset( $GLOBALS['YD_CURRENT_PLUGIN_CLASS_NAME'] );
 }
 
 yd_mobile_app_before_init();
@@ -116,10 +124,10 @@ add_action( 'yd_rest_api_on_permission_callback', 'yd_mobile_app_rest_api_on_per
 function yd_mobile_app_init() {
 	yd_mobile_app_update_slug();
 
-	load_plugin_textdomain( YD_MOBILE_APP, false, plugin_basename( __DIR__ ) . '/languages' );
-
 	require_once __DIR__ . '/src/class-mobile-app.php';
 	new \YD\Mobile_App();
+	unset( $GLOBALS['YD_CURRENT_PLUGIN'] );
+	unset( $GLOBALS['YD_CURRENT_PLUGIN_CLASS_NAME'] );
 }
 
 add_action( 'init', 'yd_mobile_app_init' );
@@ -128,15 +136,12 @@ add_action( 'init', 'yd_mobile_app_init' );
  * 'yd_mobile_app_admin_init' function sets up the required capabilities for administrators in the mobile app.
  *
  * This function performs the following tasks:
- * - Updates the mobile app slug by calling the `yd_mobile_app_update_slug` function.
  * - Retrieves the 'administrator' role and defines necessary capabilities.
  * - Adds the capabilities required for managing the mobile app and specific post types (e.g., 'yd_widget') to the administrator role.
  *
  * @return void
  */
 function yd_mobile_app_admin_init() {
-	yd_mobile_app_update_slug();
-
 	$role = get_role( 'administrator' );
 
 	$capabilities = array( 'yd_manage_mobile_app' );

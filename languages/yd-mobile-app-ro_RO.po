@@ -279,12 +279,6 @@ msgstr "Dacă doriți să schimbați orientarea slider‑ului, raportul de aspec
 msgid "Aspect ratio of slider"
 msgstr "Raport de aspect al slider‑ului"
 
-msgid "Remove media"
-msgstr "Elimină media"
-
-msgid "Select media"
-msgstr "Selectează media"
-
 msgid "Text border radius"
 msgstr "Raza chenarului textului"
 

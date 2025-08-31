@@ -279,12 +279,6 @@ msgstr "Pour changer l’orientation du curseur, le format d’image doit être 
 msgid "Aspect ratio of slider"
 msgstr "Format d’image du curseur"
 
-msgid "Remove media"
-msgstr "Supprimer le média"
-
-msgid "Select media"
-msgstr "Sélectionner un média"
-
 msgid "Text border radius"
 msgstr "Rayon de bordure du texte"
 

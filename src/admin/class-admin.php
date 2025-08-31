@@ -38,6 +38,21 @@ final class Admin extends \YD\Admin {
 	public function __construct() {
 		parent::__construct();
 
+		add_filter(
+			'plugin_row_meta',
+			function ( array $plugin_meta, string $plugin_file ) {
+				if ( wp_basename( $plugin_file, '.php' ) === $GLOBALS['YD_CURRENT_PLUGIN'] ) {
+					$plugin_meta['docs'] = sprintf(
+						'<a href="%s">REST API</a>',
+						esc_url( 'https://documenter.getpostman.com/view/38450440/2sB2cVegqp' ),
+					);
+				}
+				return $plugin_meta;
+			},
+			10,
+			2
+		);
+
 		add_action(
 			'woocommerce_order_status_changed',
 			function ( int $order_id, string $from, string $to, \WC_Order $order ) {

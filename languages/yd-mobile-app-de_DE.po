@@ -279,12 +279,6 @@ msgstr "Wenn Sie die Ausrichtung des Sliders ändern möchten, muss das Seitenve
 msgid "Aspect ratio of slider"
 msgstr "Seitenverhältnis des Sliders"
 
-msgid "Remove media"
-msgstr "Medium entfernen"
-
-msgid "Select media"
-msgstr "Medium auswählen"
-
 msgid "Text border radius"
 msgstr "Text‑Rahmenradius"
 
